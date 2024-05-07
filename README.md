@@ -1,6 +1,6 @@
 <img src="https://content.arduino.cc/website/Arduino_logo_teal.svg" height="100" align="right" />
 
-# Arduino_CloudConnectionFeedback ✉️
+# Arduino_CloudConnectionFeedback
 
 ![License](https://img.shields.io/github/license/alranel/Arduino_CloudConnectionFeedback)
 
