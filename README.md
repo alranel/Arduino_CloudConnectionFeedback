@@ -2,7 +2,7 @@
 
 # Arduino_CloudConnectionFeedback ✉️
 
-![License](https://img.shields.io/github/license/alranel/Arduino_CloudConnectionFeedback)]
+![License](https://img.shields.io/github/license/alranel/Arduino_CloudConnectionFeedback)
 
 This library implements a simple connection helper for projects based on [Arduino Cloud](https://cloud.arduino.cc/). It adds the following behavior to your project:
 
