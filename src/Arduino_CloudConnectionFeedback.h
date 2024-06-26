@@ -2,13 +2,14 @@
 #include <Arduino_ConnectionHandler.h>
 
 #ifdef ARDUINO_UNOR4_WIFI
-#include "ArduinoGraphics.h"
 #include "Arduino_LED_Matrix.h"
-ArduinoLEDMatrix _matrix;
 #endif
 
+#ifdef ARDUINO_UNOR4_WIFI
+void waitForArduinoCloudConnection(ArduinoLEDMatrix &_matrix) {
+#else
 void waitForArduinoCloudConnection() {
-  _matrix.begin();
+#endif
 
   // Display an animation to tell the user we're connecting to network
   Serial.println("CONNECTION STATUS: connecting to WiFi");

@@ -15,12 +15,12 @@ void setup() {
   
   // This line will block until we're connected to Arduino Cloud
   // using the LED matrix to provide feedback
-  waitForArduinoCloudConnection();
+  matrix.begin();
+  waitForArduinoCloudConnection(matrix);
   
   Serial.println("Program started!");
 
   // Use the LED matrix to do something else
-  matrix.begin();
   matrix.loadSequence(LEDMATRIX_ANIMATION_TETRIS_INTRO);
   matrix.play(false);
 }
